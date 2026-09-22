@@ -1,0 +1,9 @@
+{
+  "uuid": "copy-paste-list@anik.saha",
+  "name": "Copy Paste List",
+  "description": "Clipboard history popup (Super+V by default). Copied text is remembered in a list; full contents are stored encrypted via GNOME Keyring, only a hash and short preview live on disk.",
+  "shell-version": ["45", "46", "47"],
+  "url": "",
+  "version": 1,
+  "settings-schema": "org.gnome.shell.extensions.copy-paste-list"
+}

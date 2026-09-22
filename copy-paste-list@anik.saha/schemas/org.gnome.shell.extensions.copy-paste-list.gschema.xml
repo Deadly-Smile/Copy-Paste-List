@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.copy-paste-list" path="/org/gnome/shell/extensions/copy-paste-list/">
+    <key name="toggle-shortcut" type="as">
+      <default>['&lt;Super&gt;v']</default>
+      <summary>Toggle clipboard history popup</summary>
+      <description>Keybinding that opens/closes the clipboard history menu.</description>
+    </key>
+    <key name="history-limit" type="i">
+      <default>30</default>
+      <range min="5" max="200"/>
+      <summary>Maximum number of clipboard entries to keep</summary>
+      <description>Oldest entries beyond this count are evicted, including their stored secret.</description>
+    </key>
+  </schema>
+</schemalist>
