@@ -1,4 +1,4 @@
-# Copy Paste List
+# Copy Paste List(For my own use -_-)
 
 A GNOME Shell extension that remembers what you copy. Press **Super+V** to pop up
 a history of your clipboard, click an entry to paste it again — like the
